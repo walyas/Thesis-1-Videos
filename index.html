@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Video Autoplay Test</title>
+  <title>Dual YouTube Test</title>
   <style>
     body {
       margin: 0;
@@ -11,19 +11,26 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
+      gap: 20px;
     }
     iframe {
-      width: 80%;
+      width: 48%;
       height: 90vh;
       border: none;
     }
   </style>
 </head>
 <body>
+  <!-- Regular YouTube video -->
   <iframe 
     src="https://www.youtube.com/embed/O7MIb5z5X_8?autoplay=1&mute=1&controls=0&loop=1&playlist=O7MIb5z5X_8" 
     allow="autoplay">
   </iframe>
+
+  <!-- YouTube Shorts (may not work reliably) -->
+  <iframe 
+    src="https://www.youtube.com/embed/xWjkdpVCqbo?autoplay=1&mute=1&controls=0&loop=1&playlist=xWjkdpVCqbo" 
+    allow="autoplay">
+  </iframe>
 </body>
 </html>
-
